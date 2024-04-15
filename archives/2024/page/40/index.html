@@ -17,15 +17,17 @@
 
 	<!-- favicon -->
 	
+	<link rel="shortcut icon" href="/favicon.ico">
+	
 
 
 	<!-- search -->
 	<script>
-		var searchEngine = "";
+		var searchEngine = "https://www.google.com/search?q=";
 		if(typeof searchEngine == "undefined" || searchEngine == null || searchEngine == ""){
 			searchEngine = "https://www.google.com/search?q=";
 		}
-		var homeHost = "";
+		var homeHost = "wujun234.github.io";
 		if(typeof homeHost == "undefined" || homeHost == null || homeHost == ""){
 			homeHost = window.location.host;
 		}
@@ -61,6 +63,15 @@
 <script src="/js/main.js"></script>
 
 	
+		
+<script src="https://cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js"></script>
+
+		
+<script src="https://cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.min.js"></script>
+
+	
+	
+		<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 	
 <meta name="generator" content="Hexo 7.1.1"></head>
 
@@ -1244,8 +1255,17 @@ var _hmt = _hmt || [];
 			
 							<ul>
 								<li class="file">
-									<a href="/2024/04/10/%E4%BD%9B%E7%BB%8F/%E6%B3%95%E5%8D%8E%E7%BB%8F/02%20%E6%B3%95%E5%8D%8E%E7%BB%8F%E5%8D%B7%E4%BA%8C/">
+									<a href="/2024/04/15/%E4%BD%9B%E7%BB%8F/%E6%B3%95%E5%8D%8E%E7%BB%8F/02%20%E6%B3%95%E5%8D%8E%E7%BB%8F%E5%8D%B7%E4%BA%8C/">
 										02 法华经卷二
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+							<ul>
+								<li class="file">
+									<a href="/2024/04/15/%E4%BD%9B%E7%BB%8F/%E6%B3%95%E5%8D%8E%E7%BB%8F/03%20%E6%B3%95%E5%8D%8E%E7%BB%8F%E5%8D%B7%E4%B8%89/">
+										03 法华经卷三
 									</a>
 								</li>
 								<div class="article-toc" style="display: none;"></div>
@@ -4190,6 +4210,24 @@ var _hmt = _hmt || [];
 		<div id="index">
 	
 		<div class="index-li">
+			<a href="/2024/04/04/%E5%84%92%E5%AD%A6/%E5%91%A8%E6%98%93/08%E2%80%83%E4%B7%87%E2%80%83%E6%B0%B4%E5%9C%B0%E6%AF%94/">
+				<h2 class="index-title">
+					08 ䷇ 水地比
+				</h2>
+				<div class="index-brief">
+					水地比比：吉。原筮元永贞，无咎。不宁方来，后夫凶。初六：有孚比之，无咎。有孚盈缶，终来有它，吉。六二：比之自内，贞吉。六三：比之匪人。六四：外比这，贞吉。九五：显比，王用三驱，失前禽。邑人不诫，吉。上六：比之无首，凶。彖曰：比，吉也，比，辅也，下顺从也。原筮元永贞，无咎，以刚中也。不宁方来，上下应也
+					...
+				</div>
+			</a>
+                <div class="article-meta">
+				    <span>2024-04-04</span>
+                    
+                            
+                    
+                </div>
+		</div>	
+	
+		<div class="index-li">
 			<a href="/2024/04/04/%E5%84%92%E5%AD%A6/%E5%91%A8%E6%98%93/21%E2%80%83%E4%B7%94%E2%80%83%E7%81%AB%E9%9B%B7%E5%99%AC%E5%97%91/">
 				<h2 class="index-title">
 					21 ䷔ 火雷噬嗑
@@ -4351,24 +4389,6 @@ var _hmt = _hmt || [];
                 </div>
 		</div>	
 	
-		<div class="index-li">
-			<a href="/2024/04/04/%E5%84%92%E5%AD%A6/%E7%A4%BC%E8%AE%B0/15%20%E4%B8%A7%E6%9C%8D%E5%B0%8F%E8%AE%B0/">
-				<h2 class="index-title">
-					15 丧服小记
-				</h2>
-				<div class="index-brief">
-					斩衰，括发以麻，为母括发以麻，免而以布，齐衰，恶笄以终丧，男子冠而妇人笄，男子免而妇人髽，其义：为男子则免，为妇人则髽，苴杖，竹也；削杖，桐也，祖父卒，而后为祖母后者三年。为父母，长子稽颡，大夫吊之，虽缌必稽颡，妇人为夫与长子稽颡，其余则否。男主必使同姓，妇主必使异姓，为父后者为出母无服，亲亲，以三
-					...
-				</div>
-			</a>
-                <div class="article-meta">
-				    <span>2024-04-04</span>
-                    
-                            
-                    
-                </div>
-		</div>	
-	
 	
 	<div id="index-paginator">
 		
@@ -4380,9 +4400,20 @@ var _hmt = _hmt || [];
 	</div>
 	<div id="footer">
 	<p>
-	©-<span id="footerYear"></span> 
+	©2019-<span id="footerYear"></span> 
 	<a href="/">John Doe</a> 
 	
+	
+		|
+		<span id="busuanzi_container_site_pv">
+			pv
+			<span id="busuanzi_value_site_pv"></span>
+		</span>
+		|
+		<span id="busuanzi_container_site_uv"> 
+			uv
+			<span id="busuanzi_value_site_uv"></span>
+		</span>
 	
 	<br>
 	Theme <a href="//github.com/wujun234/hexo-theme-tree" target="_blank">Tree</a>
