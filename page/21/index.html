@@ -17,15 +17,17 @@
 
 	<!-- favicon -->
 	
+	<link rel="shortcut icon" href="/favicon.ico">
+	
 
 
 	<!-- search -->
 	<script>
-		var searchEngine = "";
+		var searchEngine = "https://www.google.com/search?q=";
 		if(typeof searchEngine == "undefined" || searchEngine == null || searchEngine == ""){
 			searchEngine = "https://www.google.com/search?q=";
 		}
-		var homeHost = "";
+		var homeHost = "wujun234.github.io";
 		if(typeof homeHost == "undefined" || homeHost == null || homeHost == ""){
 			homeHost = window.location.host;
 		}
@@ -61,6 +63,15 @@
 <script src="/js/main.js"></script>
 
 	
+		
+<script src="https://cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js"></script>
+
+		
+<script src="https://cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.min.js"></script>
+
+	
+	
+		<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 	
 <meta name="generator" content="Hexo 7.1.1"></head>
 
@@ -2197,15 +2208,6 @@ var _hmt = _hmt || [];
 			
 							<ul>
 								<li class="file">
-									<a href="/2024/05/24/%E5%84%92%E5%AD%A6/%E7%A4%BC%E8%AE%B0/06%E6%9C%88%E4%BB%A4/">
-										06月令
-									</a>
-								</li>
-								<div class="article-toc" style="display: none;"></div>
-							</ul>
-			
-							<ul>
-								<li class="file">
 									<a href="/2024/04/04/%E5%84%92%E5%AD%A6/%E7%A4%BC%E8%AE%B0/07%20%E6%9B%BE%E5%AD%90%E9%97%AE/">
 										07 曾子问
 									</a>
@@ -2844,7 +2846,7 @@ var _hmt = _hmt || [];
 			
 							<ul>
 								<li class="file">
-									<a href="/2024/05/24/%E9%81%93%E8%97%8F/%E9%92%88%E7%81%B8%E5%A4%A7%E6%88%90/05%20%E9%92%88%E7%81%B8%E5%A4%A7%E6%88%90%E5%8D%B7%E4%BA%94/">
+									<a href="/2024/05/28/%E9%81%93%E8%97%8F/%E9%92%88%E7%81%B8%E5%A4%A7%E6%88%90/05%20%E9%92%88%E7%81%B8%E5%A4%A7%E6%88%90%E5%8D%B7%E4%BA%94/">
 										05 针灸大成卷五
 									</a>
 								</li>
@@ -4298,24 +4300,6 @@ var _hmt = _hmt || [];
 		<div id="index">
 	
 		<div class="index-li">
-			<a href="/2024/04/04/%E9%81%93%E8%97%8F/%E9%92%88%E7%81%B8%E7%94%B2%E4%B9%99%E7%BB%8F/01%E9%92%88%E7%81%B8%E7%94%B2%E4%B9%99%E7%BB%8F%E5%8D%B7%E4%B8%80/">
-				<h2 class="index-title">
-					01针灸甲乙经卷一
-				</h2>
-				<div class="index-brief">
-					皇甫谧精神五脏论第一黄帝问曰：凡刺之法，必先本於神，血脉营气精神，此五脏之所藏也。何谓德，气，生，精，神，魂，魄，心，意，志，思，智，虑？请问其故。岐伯对曰：天之在我者德也，地之在我者气也，德流气薄而生也。故生之来谓之精；两精相搏谓之神；随神往来谓之魂；并精出入谓之魄；可以任物谓之心；心有所忆谓之意
-					...
-				</div>
-			</a>
-                <div class="article-meta">
-				    <span>2024-04-04</span>
-                    
-                            
-                    
-                </div>
-		</div>	
-	
-		<div class="index-li">
 			<a href="/2024/04/04/%E9%81%93%E8%97%8F/%E9%92%88%E7%81%B8%E7%94%B2%E4%B9%99%E7%BB%8F/12%E9%92%88%E7%81%B8%E7%94%B2%E4%B9%99%E7%BB%8F%E5%8D%B7%E5%8D%81%E4%BA%8C/">
 				<h2 class="index-title">
 					12针灸甲乙经卷十二
@@ -4529,6 +4513,33 @@ var _hmt = _hmt || [];
                 </div>
 		</div>	
 	
+		<div class="index-li">
+			<a href="/2024/04/04/%E9%81%93%E8%97%8F/%E9%BB%84%E5%BA%AD%E7%BB%8F/">
+				<h2 class="index-title">
+					黄庭经
+				</h2>
+				<div class="index-brief">
+					上清紫霞虚皇前	太上大道玉晨君
+闲居蕊珠作七言	散化五形变万神
+是为黄庭曰内篇	琴心三叠舞胎仙
+九气映明出霄间	神盖童子生此烟
+是曰玉书可精研	咏之万遍升三天
+千灾以消百病痊	不惮虎狼之凶残
+亦以却老年永延	上有魂灵下关元
+左为少阳右太阴	后有密户前生门
+出日入月呼吸存	元气所合列宿分
+紫烟上下三素
+					...
+				</div>
+			</a>
+                <div class="article-meta">
+				    <span>2024-04-04</span>
+                    
+                            
+                    
+                </div>
+		</div>	
+	
 	
 	<div id="index-paginator">
 		
@@ -4540,9 +4551,20 @@ var _hmt = _hmt || [];
 	</div>
 	<div id="footer">
 	<p>
-	©-<span id="footerYear"></span> 
+	©2019-<span id="footerYear"></span> 
 	<a href="/">John Doe</a> 
 	
+	
+		|
+		<span id="busuanzi_container_site_pv">
+			pv
+			<span id="busuanzi_value_site_pv"></span>
+		</span>
+		|
+		<span id="busuanzi_container_site_uv"> 
+			uv
+			<span id="busuanzi_value_site_uv"></span>
+		</span>
 	
 	<br>
 	Theme <a href="//github.com/wujun234/hexo-theme-tree" target="_blank">Tree</a>
