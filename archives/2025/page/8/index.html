@@ -17,15 +17,17 @@
 
 	<!-- favicon -->
 	
+	<link rel="shortcut icon" href="/favicon.ico">
+	
 
 
 	<!-- search -->
 	<script>
-		var searchEngine = "";
+		var searchEngine = "https://www.google.com/search?q=";
 		if(typeof searchEngine == "undefined" || searchEngine == null || searchEngine == ""){
 			searchEngine = "https://www.google.com/search?q=";
 		}
-		var homeHost = "";
+		var homeHost = "wujun234.github.io";
 		if(typeof homeHost == "undefined" || homeHost == null || homeHost == ""){
 			homeHost = window.location.host;
 		}
@@ -61,6 +63,15 @@
 <script src="/js/main.js"></script>
 
 	
+		
+<script src="https://cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js"></script>
+
+		
+<script src="https://cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.min.js"></script>
+
+	
+	
+		<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 	
 <meta name="generator" content="Hexo 7.1.1"></head>
 
@@ -3073,7 +3084,7 @@ var _hmt = _hmt || [];
 			
 							<ul>
 								<li class="file">
-									<a href="/2025/11/08/%E5%84%92%E5%AD%A6/%E8%AF%97%E7%BB%8F/">
+									<a href="/2025/11/13/%E5%84%92%E5%AD%A6/%E8%AF%97%E7%BB%8F/">
 										诗经
 									</a>
 								</li>
@@ -3783,8 +3794,17 @@ var _hmt = _hmt || [];
 			
 							<ul>
 								<li class="file">
-									<a href="/2025/11/08/%E9%81%93%E8%97%8F/%E6%8A%B1%E6%9C%B4%E5%AD%90/%E5%A4%96%E7%AF%87/22%20%E9%80%B8%E6%B0%91/">
+									<a href="/2025/11/12/%E9%81%93%E8%97%8F/%E6%8A%B1%E6%9C%B4%E5%AD%90/%E5%A4%96%E7%AF%87/22%20%E9%80%B8%E6%B0%91/">
 										22 逸民
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+							<ul>
+								<li class="file">
+									<a href="/2025/11/12/%E9%81%93%E8%97%8F/%E6%8A%B1%E6%9C%B4%E5%AD%90/%E5%A4%96%E7%AF%87/23%20%E5%8B%96%E5%AD%A6/">
+										23 勖学
 									</a>
 								</li>
 								<div class="article-toc" style="display: none;"></div>
@@ -3825,7 +3845,7 @@ var _hmt = _hmt || [];
 			
 							<ul>
 								<li class="file">
-									<a href="/2025/11/09/%E9%81%93%E8%97%8F/%E7%A5%9E%E5%86%9C%E6%9C%AC%E8%8D%89%E7%BB%8F/02%20%E4%B8%8A%E5%93%81/">
+									<a href="/2025/11/12/%E9%81%93%E8%97%8F/%E7%A5%9E%E5%86%9C%E6%9C%AC%E8%8D%89%E7%BB%8F/02%20%E4%B8%8A%E5%93%81/">
 										02 上品
 									</a>
 								</li>
@@ -5551,6 +5571,24 @@ var _hmt = _hmt || [];
 		<div id="index">
 	
 		<div class="index-li">
+			<a href="/2025/03/05/%E5%84%92%E5%AD%A6/%E7%A4%BC%E8%AE%B0/31%20%E4%B8%AD%E5%BA%B8/">
+				<h2 class="index-title">
+					31 中庸
+				</h2>
+				<div class="index-brief">
+					天命之谓性，率性之谓道，修道之谓教，道也者，不可须臾离也，可离非道也，是故君子戒慎乎其所不睹，恐惧乎其所不闻，莫见乎隐，莫显乎微，故君子慎其独也，喜怒哀乐之未发谓之中，发而皆中节谓之和，中也者天下之大本也，和也者天下之达道也，致中和，天地位焉，万物育焉。仲尼曰：「君子中庸，小人反中庸，君子之中庸也，
+					...
+				</div>
+			</a>
+                <div class="article-meta">
+				    <span>2025-03-05</span>
+                    
+                            
+                    
+                </div>
+		</div>	
+	
+		<div class="index-li">
 			<a href="/2025/02/22/%E9%81%93%E8%97%8F/%E9%BB%84%E5%B8%9D%E5%86%85%E7%BB%8F/%E4%B8%80%E3%80%81%E7%B4%A0%E9%97%AE/28%E3%80%81%E9%80%9A%E8%AF%84%E8%99%9A%E5%AE%9E%E8%AE%BA/">
 				<h2 class="index-title">
 					28、通评虚实论
@@ -5734,25 +5772,6 @@ var _hmt = _hmt || [];
                 </div>
 		</div>	
 	
-		<div class="index-li">
-			<a href="/2025/02/22/%E9%81%93%E8%97%8F/%E9%BB%84%E5%B8%9D%E5%86%85%E7%BB%8F/%E4%BA%8C%E3%80%81%E7%81%B5%E6%9F%A9/22%E3%80%81%E7%97%85%E7%8B%82/">
-				<h2 class="index-title">
-					22、病狂
-				</h2>
-				<div class="index-brief">
-					目眦外决于面者，为锐眦，在内近鼻者，为内眦，上为外眦，下为内眦。癫疾始生，先不乐，头重痛，视举目赤，甚作极已而烦心，候之于颜。取手太阳、阳明、太阴，血变而止。
-癫疾始作而引口啼呼喘悸者，候之手阳明，太阳，左强者攻其右，右强者攻其左，血变而止。癫疾始作，先反僵，因而脊痛，候之足太阳、阳明、太阴、手太阳
-					...
-				</div>
-			</a>
-                <div class="article-meta">
-				    <span>2025-02-22</span>
-                    
-                            
-                    
-                </div>
-		</div>	
-	
 	
 	<div id="index-paginator">
 		
@@ -5764,9 +5783,20 @@ var _hmt = _hmt || [];
 	</div>
 	<div id="footer">
 	<p>
-	©-<span id="footerYear"></span> 
+	©2019-<span id="footerYear"></span> 
 	<a href="/">John Doe</a> 
 	
+	
+		|
+		<span id="busuanzi_container_site_pv">
+			pv
+			<span id="busuanzi_value_site_pv"></span>
+		</span>
+		|
+		<span id="busuanzi_container_site_uv"> 
+			uv
+			<span id="busuanzi_value_site_uv"></span>
+		</span>
 	
 	<br>
 	Theme <a href="//github.com/wujun234/hexo-theme-tree" target="_blank">Tree</a>
