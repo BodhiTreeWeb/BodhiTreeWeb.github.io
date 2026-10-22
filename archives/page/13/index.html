@@ -17,15 +17,17 @@
 
 	<!-- favicon -->
 	
+	<link rel="shortcut icon" href="/favicon.ico">
+	
 
 
 	<!-- search -->
 	<script>
-		var searchEngine = "";
+		var searchEngine = "https://www.google.com/search?q=";
 		if(typeof searchEngine == "undefined" || searchEngine == null || searchEngine == ""){
 			searchEngine = "https://www.google.com/search?q=";
 		}
-		var homeHost = "";
+		var homeHost = "wujun234.github.io";
 		if(typeof homeHost == "undefined" || homeHost == null || homeHost == ""){
 			homeHost = window.location.host;
 		}
@@ -61,6 +63,15 @@
 <script src="/js/main.js"></script>
 
 	
+		
+<script src="https://cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js"></script>
+
+		
+<script src="https://cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.min.js"></script>
+
+	
+	
+		<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 	
 <meta name="generator" content="Hexo 7.1.1"></head>
 
@@ -3403,6 +3414,26 @@ var _hmt = _hmt || [];
 							</ul>
 			
 							<ul>
+								<li class="directory">
+									<a href="#" class="directory">
+										<i class="fa fa-plus-square-o"></i>
+										外经
+									</a>
+									
+							<ul>
+								<li class="file">
+									<a href="/2026/10/22/%E9%81%93%E8%97%8F/%E5%A4%96%E7%BB%8F/%E9%98%B4%E9%98%B3%E9%A2%A0%E5%80%92%E7%AF%87%E7%AC%AC%E4%B8%80/">
+										阴阳颠倒篇第一
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+								</li>
+								
+							</ul>
+			
+							<ul>
 								<li class="file">
 									<a href="/2025/05/29/%E9%81%93%E8%97%8F/%E5%A4%AA%E4%B8%8A%E8%80%81%E5%90%9B%E5%86%85%E8%A7%82%E7%BB%8F-%E5%B7%B2%E6%A0%A1/">
 										太上老君内观经-已校
@@ -4463,7 +4494,7 @@ var _hmt = _hmt || [];
 			
 							<ul>
 								<li class="file">
-									<a href="/2026/09/02/%E9%81%93%E8%97%8F/%E7%A5%9E%E5%86%9C%E6%9C%AC%E8%8D%89%E7%BB%8F/03%20%E4%B8%8B%E5%93%81/">
+									<a href="/2026/10/22/%E9%81%93%E8%97%8F/%E7%A5%9E%E5%86%9C%E6%9C%AC%E8%8D%89%E7%BB%8F/03%20%E4%B8%8B%E5%93%81/">
 										03 下品
 									</a>
 								</li>
@@ -6263,6 +6294,24 @@ var _hmt = _hmt || [];
 		<div id="index">
 	
 		<div class="index-li">
+			<a href="/2025/04/15/%E4%BD%9B%E7%BB%8F/%E5%8D%8E%E4%B8%A5%E7%BB%8F/%E5%8D%8E%E4%B8%A5%E7%BB%8F%E5%9B%9B%E5%8D%81%E5%8D%B7/35%20%E5%A4%A7%E6%96%B9%E5%B9%BF%E4%BD%9B%E5%8D%8E%E4%B8%A5%E7%BB%8F%E5%8D%B7%E4%B8%89%E5%8D%81%E4%BA%94-%E5%B7%B2%E6%A0%A1/">
+				<h2 class="index-title">
+					35 大方广佛华严经卷三十五-已校
+				</h2>
+				<div class="index-brief">
+					罽宾国三藏般若奉诏译入不思议解脱境界普贤行愿品尔时善财童子以如是等一切菩萨无量称扬讚歎之法讚毘卢遮那庄严大楼阁中诸菩萨已，於楼阁前恭敬顶礼，住立一心，曲躬合掌，渴仰欲见弥勒菩萨亲近供养，乃见弥勒菩萨从楼阁外别处而来，无量天、龙、夜叉、乾闼婆、阿脩罗、迦楼罗、紧那罗、摩睺罗伽、人、非人等，释、梵、护世
+					...
+				</div>
+			</a>
+                <div class="article-meta">
+				    <span>2025-04-15</span>
+                    
+                            
+                    
+                </div>
+		</div>	
+	
+		<div class="index-li">
 			<a href="/2025/04/09/%E5%84%92%E5%AD%A6/%E7%A4%BC%E8%AE%B0/46%20%E5%B0%84%E4%B9%89-%E5%B7%B2%E6%A0%A1/">
 				<h2 class="index-title">
 					46 射义-已校
@@ -6424,28 +6473,10 @@ var _hmt = _hmt || [];
                 </div>
 		</div>	
 	
-		<div class="index-li">
-			<a href="/2025/03/27/%E5%84%92%E5%AD%A6/%E7%A4%BC%E8%AE%B0/40%20%E6%8A%95%E5%A3%B6/">
-				<h2 class="index-title">
-					40 投壶
-				</h2>
-				<div class="index-brief">
-					抽壶之礼，主人奉矢，司射奉中，使人执壶。主人请曰：某有枉矢哨壶，请以乐宾。宾曰：子有旨酒嘉肴，某既赐矣，又重以乐，敢辞。主人曰：枉矢哨壶，不足辞也，敢固以请。宾曰：某既赐矣，又重以乐，敢固辞。主人曰：枉矢哨壶，不足辞也，敢固以请。宾曰：某固辞不得命，敢不敬从。宾再拜受，主人般还，曰：辟。主人阼阶上拜
-					...
-				</div>
-			</a>
-                <div class="article-meta">
-				    <span>2025-03-27</span>
-                    
-                            
-                    
-                </div>
-		</div>	
-	
 	
 	<div id="index-paginator">
 		
-			<a class="extend prev" rel="prev" href="/archives/page/12/">&lt;</a><a class="page-number" href="/archives/">1</a><span class="space">&hellip;</span><a class="page-number" href="/archives/page/11/">11</a><a class="page-number" href="/archives/page/12/">12</a><span class="page-number current">13</span><a class="page-number" href="/archives/page/14/">14</a><a class="page-number" href="/archives/page/15/">15</a><span class="space">&hellip;</span><a class="page-number" href="/archives/page/64/">64</a><a class="extend next" rel="next" href="/archives/page/14/">&gt;</a>
+			<a class="extend prev" rel="prev" href="/archives/page/12/">&lt;</a><a class="page-number" href="/archives/">1</a><span class="space">&hellip;</span><a class="page-number" href="/archives/page/11/">11</a><a class="page-number" href="/archives/page/12/">12</a><span class="page-number current">13</span><a class="page-number" href="/archives/page/14/">14</a><a class="page-number" href="/archives/page/15/">15</a><span class="space">&hellip;</span><a class="page-number" href="/archives/page/65/">65</a><a class="extend next" rel="next" href="/archives/page/14/">&gt;</a>
 		
 	</div>
 </div>
@@ -6453,9 +6484,20 @@ var _hmt = _hmt || [];
 	</div>
 	<div id="footer">
 	<p>
-	©-<span id="footerYear"></span> 
+	©2019-<span id="footerYear"></span> 
 	<a href="/">John Doe</a> 
 	
+	
+		|
+		<span id="busuanzi_container_site_pv">
+			pv
+			<span id="busuanzi_value_site_pv"></span>
+		</span>
+		|
+		<span id="busuanzi_container_site_uv"> 
+			uv
+			<span id="busuanzi_value_site_uv"></span>
+		</span>
 	
 	<br>
 	Theme <a href="//github.com/wujun234/hexo-theme-tree" target="_blank">Tree</a>
